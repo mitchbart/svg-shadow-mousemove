@@ -1,0 +1,48 @@
+html
+  box-sizing: border-box
+
+*, *:before, *:after
+  box-sizing: inherit
+
+body
+  //background: green
+
+
+
+.hero
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  position: relative
+  //background-image: url("../assets/yonatan-anugerah-210943.jpg")
+  //background-size: cover
+  //background: linear-gradient(to left, #43cea2 , #185a9d)
+  //background: linear-gradient(to left, #D38312 , #A83279)
+  //background: linear-gradient(to left, #485563 , #29323c)
+  //background: linear-gradient(to left, #00c6ff , #0072ff)
+  //background: linear-gradient(to left, #f857a6 , #ff5858)
+  //background: linear-gradient(to left, #FC354C , #0ABFBC)
+
+
+
+.logo-large
+  width: 700px
+  height: auto
+  //filter: drop-shadow( 3px 3px 5px grey )
+
+
+  //position: fixed
+  //top: 10px
+  //width: 200px
+  animation-name: floating
+  animation-duration: 40s
+  animation-iteration-count: infinite
+  animation-timing-function: ease-in-out
+  @media (max-width: 1000px)
+    width: 600px
+  @media (max-width: 600px)
+    width: 400px
+  @media (max-width: 400px)
+    width: 280px
